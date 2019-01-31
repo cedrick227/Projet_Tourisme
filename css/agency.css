@@ -1,0 +1,171 @@
+.navbar-nav li a:hover, navbar-nav.active a:hover
+{
+    color: #B06F1A !important;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 88vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/* entete */
+#entete
+{
+    padding: 60px 0;
+}
+#entete h2
+{
+    color: #323232;
+    border-bottom: 1px solid #B06F1A;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+}
+#thematiques
+{
+    padding: 60px;
+}
+#thematiques h2
+{
+    color: #323232;
+    border-bottom: 1px solid #B06F1A;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+}
+/* reserver */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#agence
+{
+    padding: 60px 0;
+}
+#agence h2
+{
+    color: #323232;
+    border-bottom: 1px solid #B06F1A;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+}
+body .body {
+  background-color: #333333;
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+/**** footer ***/
+footer
+{
+    height: 260px;
+    background-color: #323232;
+}
+footer h1
+{
+    text-align: center;
+    color: #B06F1A;
+    padding-top: 80px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777
+}
+.nan
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777
+}
+
+/*** contact ***/
+#encontact
+{
+    padding: 60px 0;
+}
+#encontact h2
+{
+    color: #323232;
+    border-bottom: 1px solid #B06F1A;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
